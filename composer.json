@@ -1,0 +1,21 @@
+{
+    "name": "tgallice/fb-bot-example",
+    "description": "Example of a Facebook messenger bot",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Thomas Gallice",
+            "email": "tm.gallice@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bot\\": "src"
+        }
+    },
+    "require": {
+        "silex/silex": "~2.0",
+        "tgallice/fb-messenger-sdk": "1.0.x-dev"
+    }
+}

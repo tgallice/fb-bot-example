@@ -1,0 +1,8 @@
+<?php
+
+return [
+    'debug' => true,
+    'facebook_app_secret' => 'your_app_secret',
+    'facebook_access_token' => 'your_access_token',
+    'facebook_verify_token' => 'your_verify_token',
+];
